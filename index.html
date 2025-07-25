@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CRYPT PAIN | FX & Degen Trader</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Hero Section -->
+  <section class="hero">
+    <img src="dp.jpg" alt="Profile Picture" class="hero-img">
+    <h1 class="hero-name">CRYPT PAIN</h1>
+    <p class="hero-tagline"></p>
+    <button onclick="toggleTheme()" class="theme-toggle"><i class="fas fa-adjust"></i> Toggle Theme</button>
+  </section>
+
+  <!-- Navigation -->
+  <nav class="nav">
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- Main Content -->
+  <div class="container">
+    <!-- About Section -->
+    <section id="about" class="section about">
+      <h2>About Me</h2>
+      <p>
+        I'm an FX & Degen Trader, Community Manager, Moderator, Reply Guy, and Ambassador in the Web3 space. I fuel Solana projects with meme-driven hype, raid strategies, and organic community growth, turning ideas into cult followings with high-energy engagement.
+      </p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
+      <h2>Skills</h2>
+      <div class="skills-container"></div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects">
+      <h2>Projects</h2>
+      <div class="projects-container"></div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+      <h2>Contact Me</h2>
+      <div class="contact-links">
+        <a href="https://t.me/Painkium" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
+        <a href="https://x.com/cryqt_pain" target="_blank"><i class="fab fa-twitter"></i> X</a>
+      </div>
+    </section>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="ticker-wrapper">
+      <div id="ticker" class="ticker-scroll"></div>
+    </div>
+    <p>© <span id="year"></span> CRYPT PAIN. All rights reserved.</p>
+  </footer>
+
+  <!-- Project Modal -->
+  <div id="project-modal" class="modal">
+    <div class="modal-content">
+      <span class="close">×</span>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <a id="modal-link" href="#" target="_blank">View Project</a>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
